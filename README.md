@@ -1,15 +1,15 @@
 # ローカル通知できるテキストエディター
-簡単なメモアプリに通機能を組み合わせたFlutterアプリです。 
-解説用にシンプルな作りにしています。 
+簡単なメモアプリに通機能を組み合わせたFlutterアプリです。  
+解説用にシンプルな作りにしています。  
  
 ## Dartについて
-Dartは命名規則によって **Private** や **Public** 属性が付きます。 
-また変数名に大文字を入れることを推奨していません。 
-例） TitlePage → title_page 
+Dartは命名規則によって **Private** や **Public** 属性が付きます。  
+また変数名に大文字を入れることを推奨していません。  
+例） TitlePage → title_page  
  
-変数名や関数名の先頭に **_（アンダースコア）** をいれると **Private属性** になります 。
-例） _title_page → Private属性 
-例） title_page → public属性 
+変数名や関数名の先頭に **_（アンダースコア）** をいれると **Private属性** になります 。 
+例） _title_page → Private属性  
+例） title_page → public属性  
  
 ## 簡単な解説
 - ディレクトリ構成
