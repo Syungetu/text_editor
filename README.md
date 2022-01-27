@@ -1,7 +1,12 @@
 # ローカル通知できるテキストエディター
 簡単なメモアプリに通機能を組み合わせたFlutterアプリです。  
 解説用にシンプルな作りにしています。  
- 
+
+## Flutterのバージョン
+Flutter 2.9.0-0.1.pre  
+Android SDK version 31.0.0  
+Android Studio (version 2021.1)  
+  
 ## Dartについて
 Dartは命名規則によって **Private** や **Public** 属性が付きます。  
 また変数名に大文字を入れることを推奨していません。  
