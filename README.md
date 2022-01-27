@@ -7,7 +7,7 @@ Dartは命名規則によって **Private** や **Public** 属性が付きます
 また変数名に大文字を入れることを推奨していません。  
 例） TitlePage → title_page  
  
-変数名や関数名の先頭に **_（アンダースコア）** をいれると **Private属性** になります 。 
+変数名や関数名の先頭に **_（アンダースコア）** をいれると **Private属性** になります 。  
 例） _title_page → Private属性  
 例） title_page → public属性  
  
