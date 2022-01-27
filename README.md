@@ -1,16 +1,23 @@
-# text_editor
+# ローカル通知できるテキストエディター
 
-A new Flutter project.
+簡単なメモアプリに通機能を組み合わせたFlutterアプリです。
+解説用にシンプルな作りにしています。
 
-## Getting Started
+## 簡単な解説
 
-This project is a starting point for a Flutter application.
+ディレクトリ構成
+lib/page/
+ページ（シーン）の処理を格納しています。
+TitlePage()やMemoPage()など
 
-A few resources to get you started if this is your first Flutter project:
+lib/common/
+アプリ全体に使用する処理を格納しています。
+LocalNotifications()「ローカル通知」など
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+lib/main.dart
+初期状態で生成されるメインプログラムです。
+homeアプリ起動時に表示したいページを登録します。
+このプロジェクトではTitlePage()を登録しています。
+main()関数のrunApp(const MyApp());の後にローカル通知の初期化を行っています。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib
