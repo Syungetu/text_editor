@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.text_editor">
+    package="com.studiocross.text_editor">
     <!-- 端末起動時の通知権限 -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <!-- 端末のバイブレーションの権限 -->
     <uses-permission android:name="android.permission.VIBRATE" />
    <application
-        android:label="text_editor"
+        android:label="通知メモ"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
